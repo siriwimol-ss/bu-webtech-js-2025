@@ -1,0 +1,2 @@
+- Nickname : Foam
+- Favorite Food : Sweet
