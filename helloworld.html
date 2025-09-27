@@ -9,6 +9,23 @@
     <script type="text/javascript">
         alert('Hello, world! - using script tag with type attribute (old)');
     </script> -->
+    <script>
+        let user_input = prompt('Please enter number : ');
+        user_input = Number(user_input);
+
+        if (isNaN(user_input)){
+            alert('Invalid Please try again later')
+        } else if (user_input == 0) {
+            alert('Zero number');
+        } else if (user_input %2 === 0) {
+            alert('Even number');
+        } else {
+            alert('Odd number');
+        } 
+    
+
+    </script>
+
     <script src="javascripts/testjs.js">
         alert('this will be ignored')
     </script>
