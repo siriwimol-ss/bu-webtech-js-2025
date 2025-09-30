@@ -10,17 +10,17 @@
         alert('Hello, world! - using script tag with type attribute (old)');
     </script> -->
     <script>
-        let user_input = prompt('Please enter number : ');
+        let user_input = prompt('Input integer number : ');
         user_input = Number(user_input);
 
         if (isNaN(user_input)){
             alert('Invalid Please try again later')
         } else if (user_input === 0) {
-            alert('Zero number');
+            alert('Zero integer number');
         } else if (user_input %2 === 0) {
-            alert('Even number');
+            alert('Even integer number');
         } else {
-            alert('Odd number');
+            alert('Odd integer number');
         } 
     
 
